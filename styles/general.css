@@ -131,10 +131,12 @@ main {
     background-color: var(--Purple100);
 }
 
+
+
 .img-box4 {
     height: 280px;
-    width: 95%;
-    margin: 16px 0;
+    width: 80%;
+    margin: 16px auto;
 }
 
 .title-schedule {
@@ -167,8 +169,9 @@ main {
 }
 
 .img-box5 {
-    height: 280px;
-    width: 95%;
+    height: 30%;
+    width: 85%;
+    margin: 20px 0;
 }
 
 .box6 {
