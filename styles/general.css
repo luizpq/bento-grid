@@ -1,0 +1,64 @@
+@font-face {
+   font-family: "DM sans regular";
+   src: url(../assets/fonts/static/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DM sans";
+    src: url(../assets/fonts/static/DMSans-Medium.ttf);
+}
+
+:root {
+    --Purple100: hsl(254, 88%, 90%);
+    --Purple500: hsl(256, 67%, 59%);
+
+    --Yellow100: hsl(31, 66%, 93%);
+    --Yellow500: hsl(39, 100%, 71%);
+
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+*{
+    font-family: "DM sans";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: var(--Purple500);
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.p1 {
+    color: var(--White);
+    font-size: 2.5em;
+    line-height: 1;
+
+}
+
+.five-stars {
+    height: 30px;
+    width: 180px;
+    margin-top: 8px;
+}
+
+.p-light {
+    font-family: "DM sans regular";
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+.yellow-number {
+    color: var(--Yellow500);
+}
