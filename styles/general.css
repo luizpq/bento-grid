@@ -74,7 +74,12 @@ main {
 }
 
 .box2,
-.box3 {
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -98,7 +103,111 @@ main {
 }
 
 .box3 {
+    position: relative;
     background-color: var(--Yellow500);
-    height: 200px;
+    height: 320px;
+    overflow: hidden;
+}
 
+.img-box3 {
+    height: 250px;
+    width: 300px;
+}
+
+.position-schedule {
+    position: absolute;
+    left: 4.5%;
+    bottom: -36px;
+    overflow: hidden;
+}
+
+.box4 {
+    background-color: var(--Purple100);
+}
+
+.img-box4 {
+    height: 320px;
+    width: 380px;
+    margin: 16px 0;
+}
+
+.title-schedule {
+    font-size: 1.5em;
+}
+
+.small-letters {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+    width: 70%;
+}
+
+.box5 {
+    background-color: var(--Purple500);
+}
+
+.box5 p {
+    font-size: 1.5em;
+    color: var(--White);
+    text-align: center;
+    width: 65%;
+    margin-bottom: 5px;
+}
+
+.box5 div {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.img-box5 {
+    height: 290px;
+    width: 350px;
+}
+
+.box6 {
+    display: flex;
+    flex-flow: column;
+    padding-left: 30px;
+    background-color: var(--White);
+
+}
+
+.img-box6 {
+    height: 55px;
+    width: 150px;
+    margin: 10px 0;
+}
+
+.box6-number {
+    font-size: 2em;
+}
+
+.box7 {
+    display: flex;
+    justify-content: left;
+    background-color: var(--Yellow100);
+    padding-left: 30px;
+}
+
+.box7 p,
+.box8 p {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.img-box7 {
+    height: 100px;
+    width: 200px;
+   
+    margin-top: 25px;
+}
+
+.box8 {
+    background-color: var(--Yellow500);
+}
+
+.img-box8 {
+    height: 300px;
+    width: 300px;
 }
