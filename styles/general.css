@@ -147,10 +147,11 @@ main {
 }
 
 .box5 p {
-    font-size: 1.5em;
+    font-size: 2em;
+    line-height: 30px;
     color: var(--White);
     text-align: center;
-    width: 65%;
+    width: 60%;
     margin-bottom: 5px;
 }
 
@@ -161,7 +162,7 @@ main {
 
 .img-box5 {
     height: 290px;
-    width: 350px;
+    width: 330px;
 }
 
 .box6 {
@@ -182,7 +183,8 @@ main {
     font-size: 2em;
 }
 
-.box7 {
+.box7,
+.box8 {
     display: flex;
     justify-content: left;
     background-color: var(--Yellow100);
@@ -194,6 +196,11 @@ main {
     font-size: 2em;
     font-weight: 500;
     line-height: 30px;
+    width: 90%;
+}
+
+.box7-purple-p {
+    color: var(--Purple500);
 }
 
 .img-box7 {
@@ -210,4 +217,5 @@ main {
 .img-box8 {
     height: 300px;
     width: 300px;
+    margin-top: 20px;
 }
